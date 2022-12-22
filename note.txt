@@ -1,0 +1,94 @@
+server creation - using express
+----------------
+   
+   install express
+         -npm i express
+  
+1. import express
+
+2. create an app using express
+
+3. create a code number   (3000)
+
+4. create requests according to our projects
+
+
+
+nodemon server
+--------------
+-npm i -g nodemon
+
+
+user authentication using express
+-----------------------------------
+JWT(json web token) token
+------------------------
+jsonwebtoken - library
+sign()       - method used for generate token
+
+middlewares
+------------
+-middlewares have the capacity to control server requests
+-its a fuction with 3 arguments  (request,respose,next)
+
+there are 2 types of middlewares
+  -application specific middlewares
+  -router specific middlewares
+
+solving run time errors in json
+...............................
+
+try catch
+
+try{
+  error causing code
+}
+catch{
+  solution
+
+
+mongo db        (unstructured )
+.........
+
+shell commands in mongodb
+
+-to see the database
+-> show dbs
+
+
+-open database
+-> use databasE name
+
+
+-view collection inside database
+->show collection
+
+-view datas inside collection
+-> db.collection_name.find()
+
+
+-to view any single data inside collections
+->db.collection_name.findone({unique data to identify})
+
+
+-To insert new data
+->db.collection_name.insertone({data})
+
+-to view a single data according to a condition
+->db.collection_name.findone({condition})           (singledata)
+->db.collection_name.findone({condition})           (all data)
+
+
+-delete
+ single data
+ ->db.collection_name.dleteone({data})
+
+ -delete count=number
+ -delete count=0             if nothing deleted
+
+
+-update
+
+->db.collection_name.updateone({data to be update},{new data})
+  
+crud  -create read update delete
